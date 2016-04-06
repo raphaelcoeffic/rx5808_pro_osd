@@ -91,8 +91,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>
 #define KEY_MID 3
 #define KEY_NONE 0
 
-#define rssiPin A1   // Depands on patch of minimOSD
-#define rx5808_SEL 5 // Depands on patch of minimOSD
+#define rssiPin A3   // Depands on patch of minimOSD
+#define rx5808_SEL 3 // Depands on patch of minimOSD
 
 //#define POWER_SENSE A0 // difficult to solder
 #define POWER_SENSE A2 // easier to solder
@@ -100,7 +100,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>
 #define POWER_UPDATE_RATE 20 // how ofter power is updated (loops)
 
 #define spiDataPin 11
-#define slaveSelectPin 5
+#define slaveSelectPin 3
 #define spiClockPin 13
 
 // key debounce delay in ms
